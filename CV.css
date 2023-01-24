@@ -1,0 +1,73 @@
+body{
+   background-color: rgb(27, 45, 55); 
+}
+
+h1{
+    font-size: 50px;
+    text-align:center;
+    position: absolute;
+    padding-top: 10vh;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+ul{
+    background-color: rgb(41, 72, 73);
+    line-height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    width: auto;
+    padding-left: 30px;
+}
+
+label{
+    color: aliceblue;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.alphaDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(67, 19, 78);
+    width: 100%;
+    height: 100vh;
+    gap: 0px;
+}
+
+.left{
+    background-image:url("me.png");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: aliceblue;
+    flex: 1;
+}
+
+.middle{
+    background-image:url("gaming.webp");
+    background-size: 100% 100%;
+    height: 100vh;
+    background-color: rgba(41, 19, 69, 0);
+    flex: 1;
+    background-repeat: no-repeat;
+
+}
+
+.right{
+    background-image: url("nti.jpg"); 
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: rgb(62, 16, 69);
+    flex: 1;
+}
+
+
+
+
